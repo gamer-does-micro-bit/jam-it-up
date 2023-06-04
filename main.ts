@@ -41,6 +41,13 @@ basic.forever(function () {
         . # # # .
         # . . . #
         `)
+    basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        `)
 })
 basic.forever(function () {
     music.playMelody("C5 - A A B B A E ", 200)
